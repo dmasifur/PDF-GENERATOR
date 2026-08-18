@@ -8,3 +8,16 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Generated student paperwork
+/output/
+*.pdf
+!/templates/*.pdf
+
+# Real cohort spreadsheets.
+*.xlsx
+!/students_template.xlsx
+
+# macOS
+.DS_Store
+.vscode/settings.json
